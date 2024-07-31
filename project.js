@@ -271,10 +271,22 @@
 // }
 
 
-var sum = 0;
+// var sum = 0;
 
-for(var x = 1; x <= 10; x++){
-   sum = sum + x;
-  //  console.log(sum);
-}
-document.write(sum);
+// for(var x = 1; x <= 10; x++){
+//    sum = sum + x;
+//   //  console.log(sum);
+// }
+// document.write(sum);
+
+// for(let x = 0; x <=10; x++){
+//    console.log("Bangladesh" + x);
+// }
+
+// let sum = parseInt(prompt("enter first number : "));
+// let sum2 = parseInt(prompt("enter second number : "));
+
+// for(let a = 1; a <= 10; a++ ){
+//   sum = sum + a;
+// }
+// console.log(sum);
