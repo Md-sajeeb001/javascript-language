@@ -290,3 +290,30 @@
 //   sum = sum + a;
 // }
 // console.log(sum);
+
+// for(let x = 1; x <= 5; x++){
+//     let num1 = parseInt(prompt("enter first number : "))
+//     let num2 = parseInt(prompt("enter second number : "))
+//     let sum = num1 + num2;
+//     console.log("Result = "+sum);
+// }
+
+// let numBer = 1;
+
+// while(numBer <= 100){
+//   document.write( " " + numBer);
+//   numBer++;
+// }
+
+// let n = 2;
+// while(n <= 100){
+//    document.write(" " + n);
+//   n = n + 2;
+// }
+
+// let numf = 10;
+
+// while(numf >=1){
+//   document.write(" " + numf)
+//   numf--;
+// }
