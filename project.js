@@ -238,18 +238,43 @@
 
 // You also use can Multiple case !
 
-let userLetter = prompt("Enter a Letter : ");
+// let userLetter = prompt("Enter a Letter : ");
 
-userLetter = userLetter.toLowerCase();
+// userLetter = userLetter.toLowerCase();
 
-switch(userLetter){
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        console.log( userLetter + " is a Vowel letter");
-        break;
-    default:
-        console.log(userLetter + " is a consonant letter");
+// switch(userLetter){
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         console.log( userLetter + " is a Vowel letter");
+//         break;
+//     default:
+//         console.log(userLetter + " is a consonant letter");
+// }
+
+// FOR LOOP !
+
+// let x = 0;
+
+// for(let x = 1; x <= 100; x++){
+//    document.write(" " + x);
+// }
+
+// for(let x = 1; x <= 100; x = x + 2){
+//     document.write(" " + x);
+// }
+
+// for(let x = 2; x <=100; x = x +2){
+//     document.write(" " + x);
+// }
+
+
+var sum = 0;
+
+for(var x = 1; x <= 10; x++){
+   sum = sum + x;
+  //  console.log(sum);
 }
+document.write(sum);
