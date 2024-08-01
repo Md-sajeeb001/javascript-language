@@ -90,7 +90,11 @@ let lNumber = prompt("Enter Second Number : ");
 fNumber = parseInt(fNumber);
 lNumber = parseInt(lNumber);
 
+// let result ---> ay Khane ami varibel a akta variabel use korte parbo ate amer storeg save hobe 
 let addition, subtraction, Multiplication, Modules, Divisioin;
+
+
+// let result variabl ta ami documet.write(result) a pass korle ati thik thak kaj korbe!
 
 addition = fNumber + lNumber;
 document.write(fNumber + " + " + lNumber + " = " + addition + "<br/>");
