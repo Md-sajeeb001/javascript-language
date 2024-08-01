@@ -42,17 +42,42 @@
 // document.write(fPerson + lPerson)
 
 
-let num1 = prompt("Enter First Number : ");
-let num2 = prompt("Enter Second Number : ");
+// let num1 = prompt("Enter First Number : ");
+// let num2 = prompt("Enter Second Number : ");
 
 
-num1 = parseInt(num1, 10);
-num2 = parseInt(num2, 10);
+// num1 = parseInt(num1, 10);
+// num2 = parseInt(num2, 10);
 
-let sum, sub;
+// let sum, sub;
 
-sum = num1 + num2;
-document.write( "Multipliction = " + sum +  "<br/>");
+// sum = num1 + num2;
+// document.write( " Addition = " + sum +  "<br/>");
 
-sub = num1 - num2;
-document.write( "subtrction = " + sub);
+// sub = num1 - num2;
+// document.write( "subtraction = " + sub);
+
+// MAKE A COMPLITE CALCULATOR !
+ 
+let inpfNumber = prompt("Enter first Number : ");
+let inplNumber = prompt("Enter Second Number : ");
+
+inpfNumber = parseInt(inpfNumber);
+inplNumber = parseInt(inplNumber);
+
+let Addtition, Subtraction, Multiplication, Modules, Divisioin;
+
+Addtition = inpfNumber + inplNumber;
+document.write( "Addition = " + Addtition + "<br/>");
+
+Subtraction = inpfNumber - inplNumber;
+document.write( "Subtracation = " + Subtraction + "<br/>");
+
+Multiplication = inpfNumber * inplNumber;
+document.write( "Multiplication = " + Multiplication + "<br/>");
+
+Divisioin = inpfNumber / inplNumber;
+document.write( "Division = " + Divisioin + "<br/>");
+
+Modules = inpfNumber % inplNumber;
+document.write( "Modules = " + Modules);
