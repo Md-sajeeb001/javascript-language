@@ -83,3 +83,29 @@
 // document.write( inpfNumber + " % " + inplNumber + " = " + Modules);
 
 
+let fNumber = prompt("Enter First Number : ");
+let lNumber = prompt("Enter Second Number : ");
+
+
+fNumber = parseInt(fNumber);
+lNumber = parseInt(lNumber);
+
+let addition, subtraction, Multiplication, Modules, Divisioin;
+
+addition = fNumber + lNumber;
+document.write(fNumber + " + " + lNumber + " = " + addition + "<br/>");
+
+subtraction = fNumber - lNumber;
+document.write(fNumber + " - " + lNumber + " = " + subtraction + "<br/>");
+
+
+Multiplication = fNumber * lNumber;
+document.write(fNumber + " * " + lNumber + " = " + Multiplication + "<br/>");
+
+
+Modules = fNumber % lNumber;
+document.write(fNumber + " % " + lNumber + " = " + Modules + "<br/>");
+
+
+Divisioin = fNumber / lNumber;
+document.write(fNumber + " / " + lNumber + " = " + Divisioin);
