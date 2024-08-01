@@ -317,3 +317,75 @@
 //   document.write(" " + numf)
 //   numf--;
 // }
+
+// let i = 2;
+// let sum = 0;
+
+// while(i <= 100){
+//    sum = sum + i;
+//    i= i + 2;
+// }
+// document.write(sum);
+
+// let userNumber = Number(prompt('Enter Your Number : '));
+// let userCondition = userNumber > 0? "it's positive" : "it's nagetive";
+// console.log(userCondition);
+
+// let num1 = Number(prompt("Enter Your Number : "));
+
+// let result = num1 >0? "It's positive" : num1 < 0? "it's nagetive" : "the Number is Zero";
+// console.log(result);
+
+
+
+// function userfunction(userNum1, userNum2){
+//    let user = userNum1 * userNum2;
+//    console.log(user);
+// }
+// userfunction(6, 7);
+// userfunction(19, 2);
+// userfunction(4,6);
+
+
+
+// Addition 
+// function Addition(add1, add2){
+//     let addition = add1 + add2;
+//     return addition;
+// }
+
+// console.log(Addition(" Addition = " + 5, 10));
+// console.log(Addition(" Addition = " + 50, 10));
+// console.log(Addition(" Addition = " + 29, 10));
+
+// function Subtraction(sub1, sub2){
+//     let subtraction = sub1 - sub2;
+//     return subtraction;
+// }
+// console.log("Subtraction = " + Subtraction(20, 50));
+// console.log("Subtraction = " + Subtraction(100, 30));
+// console.log("Subtraction = " + Subtraction(39, 50));
+
+// function Multiplication(mulNum1, mulNum2){
+//    let multiple = mulNum1 * mulNum2;
+//    console.log(multiple);
+// }
+// Multiplication(" Multiplication = "  + 2,4);
+// Multiplication(" Multiplication = "  + 10, 20);
+// Multiplication(" Multiplication = "  + 200, 400);
+
+// function Division(div1, div2){
+//    let divi = div1 / div2;
+//    console.log(divi);
+// }
+// Division(4,5);
+// Division(19,39);
+// Division(50,39);
+// Division(100, 299);
+
+// IIFEs (Immediately Invokeable Function Expressions)
+
+  (function task(sum1, sum2){
+     let sumtask = sum1 + sum2;
+     console.log(Number(sumtask));
+   })(5,50);  
