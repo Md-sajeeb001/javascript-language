@@ -158,23 +158,23 @@
 
 // USER MARKS SHEET !
 
-let userInput = parseFloat(prompt("Enter Your Marks : "));
+// let userInput = parseFloat(prompt("Enter Your Marks : "));
 
-if(userInput >= 80){
-  console.log("You pass with A+");
-}
-else if(userInput >= 70){
-    console.log("You pass with A");
-}
-else if(userInput >= 60){
-    console.log("You pass with B")
-}
-else if(userInput >= 50){
-    console.log("You pass with C");
-}
-else if(userInput >= 40){
-    console.log("D");
-}
-else{
-    console.log("TUMI ANDA PYSO BORO AKTA ANDA");
-}
+// if(userInput >= 80){
+//   console.log("You pass with A+");
+// }
+// else if(userInput >= 70){
+//     console.log("You pass with A");
+// }
+// else if(userInput >= 60){
+//     console.log("You pass with B")
+// }
+// else if(userInput >= 50){
+//     console.log("You pass with C");
+// }
+// else if(userInput >= 40){
+//     console.log("D");
+// }
+// else{
+//     console.log("TUMI ANDA PYSO BORO AKTA ANDA");
+// }
