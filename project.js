@@ -59,25 +59,27 @@
 
 // CREATE A MINI CALCULATOR FOR USER !
  
-let inpfNumber = prompt("Enter first Number : ");
-let inplNumber = prompt("Enter Second Number : ");
+// let inpfNumber = prompt("Enter first Number : ");
+// let inplNumber = prompt("Enter Second Number : ");
 
-inpfNumber = parseInt(inpfNumber);
-inplNumber = parseInt(inplNumber);
+// inpfNumber = parseInt(inpfNumber);
+// inplNumber = parseInt(inplNumber);
 
-let Addtition, Subtraction, Multiplication, Modules, Divisioin;
+// let Addtition, Subtraction, Multiplication, Modules, Divisioin;
 
-Addtition = inpfNumber + inplNumber;
-document.write( inpfNumber + " + " + inplNumber + " = " + Addtition + "<br/>");
+// Addtition = inpfNumber + inplNumber;
+// document.write( inpfNumber + " + " + inplNumber + " = " + Addtition + "<br/>");
 
-Subtraction = inpfNumber - inplNumber;
-document.write( inpfNumber + " - " + inplNumber + " = " + Subtraction +  "<br/>");
+// Subtraction = inpfNumber - inplNumber;
+// document.write( inpfNumber + " - " + inplNumber + " = " + Subtraction +  "<br/>");
 
-Multiplication = inpfNumber * inplNumber;
-document.write( inpfNumber + " * " + inplNumber + " = " + Multiplication +  "<br/>");
+// Multiplication = inpfNumber * inplNumber;
+// document.write( inpfNumber + " * " + inplNumber + " = " + Multiplication +  "<br/>");
 
-Divisioin = inpfNumber / inplNumber;
-document.write( inpfNumber + " / " + inplNumber + " = " + Divisioin +  "<br/>");
+// Divisioin = inpfNumber / inplNumber;
+// document.write( inpfNumber + " / " + inplNumber + " = " + Divisioin +  "<br/>");
 
-Modules = inpfNumber % inplNumber;
-document.write( inpfNumber + " % " + inplNumber + " = " + Modules);
+// Modules = inpfNumber % inplNumber;
+// document.write( inpfNumber + " % " + inplNumber + " = " + Modules);
+
+
