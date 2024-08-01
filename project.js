@@ -57,7 +57,7 @@
 // sub = num1 - num2;
 // document.write( "subtraction = " + sub);
 
-// MAKE A COMPLITE CALCULATOR !
+// CREATE A MINI CALCULATOR FOR USER !
  
 let inpfNumber = prompt("Enter first Number : ");
 let inplNumber = prompt("Enter Second Number : ");
@@ -68,16 +68,16 @@ inplNumber = parseInt(inplNumber);
 let Addtition, Subtraction, Multiplication, Modules, Divisioin;
 
 Addtition = inpfNumber + inplNumber;
-document.write( "Addition = " + Addtition + "<br/>");
+document.write( inpfNumber + " + " + inplNumber + " = " + Addtition + "<br/>");
 
 Subtraction = inpfNumber - inplNumber;
-document.write( "Subtracation = " + Subtraction + "<br/>");
+document.write( inpfNumber + " - " + inplNumber + " = " + Subtraction +  "<br/>");
 
 Multiplication = inpfNumber * inplNumber;
-document.write( "Multiplication = " + Multiplication + "<br/>");
+document.write( inpfNumber + " * " + inplNumber + " = " + Multiplication +  "<br/>");
 
 Divisioin = inpfNumber / inplNumber;
-document.write( "Division = " + Divisioin + "<br/>");
+document.write( inpfNumber + " / " + inplNumber + " = " + Divisioin +  "<br/>");
 
 Modules = inpfNumber % inplNumber;
-document.write( "Modules = " + Modules);
+document.write( inpfNumber + " % " + inplNumber + " = " + Modules);
