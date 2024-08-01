@@ -119,7 +119,38 @@
 
 //  FAHRENHEIT TO CELSIUS !
 
-let farn = parseFloat(prompt("Enter Fahrenheit : "));
+// let farn = parseFloat(prompt("Enter Fahrenheit : "));
 
-let cels = (farn - 32) * (5/9);
-document.write( "Celsius = " + cels);
+// let cels = (farn - 32) * (5/9);
+// document.write( "Celsius = " + cels);
+
+// Relational operator -> >, >= , <=, ==, ===, !=, !==;
+
+// Logical operator -> &&, ||, !;
+
+let value1 = 30;
+let value2 = 20;
+let valus3 = 100;
+
+console.log(value1 < valus3);
+console.log(value2 > value1);
+console.log(value1 <= 20 );
+console.log(valus3 >= value2);
+console.log(value1 == "30");
+console.log(valus3 === 100);
+console.log(value2 === value1);
+console.log(value2 != valus3)
+console.log(valus3 != 100);
+console.log(value1 !== 100);
+
+let value4 = 400;
+let value5 = 500;
+let value6 = 100;
+
+console.log(value4 > value6 && value1 > value2 && valus3 < value5);
+
+console.log(value2 < value4 && value6 < value2);
+
+console.log(value4 < value1 || value5 > valus3 || value5 > value4 )
+
+console.log(!(value2>value5));
