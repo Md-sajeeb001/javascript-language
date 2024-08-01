@@ -212,27 +212,44 @@
 
 //  USER INPUT !
 
-let letter2 = prompt("Enter a letter : ");
+// let letter2 = prompt("Enter a letter : ");
 
-letter2 = letter2.toLowerCase();
+// letter2 = letter2.toLowerCase();
 
-switch(letter2){
+// switch(letter2){
+//     case "a":
+//     console.log("Vowel");
+//     break;
+//     case "u":
+//     console.log("Vowel");
+//     break;
+//     case "o":
+//     console.log("Vowel");
+//     break;
+//     case "i":
+//     console.log("Vowel");
+//     break;
+//     case "e":
+//     console.log("Vowel");
+//     break;
+//     default:
+//         console.log("Consonant");
+// }
+
+// You also use can Multiple case !
+
+let userLetter = prompt("Enter a Letter : ");
+
+userLetter = userLetter.toLowerCase();
+
+switch(userLetter){
     case "a":
-    console.log("Vowel");
-    break;
-    case "u":
-    console.log("Vowel");
-    break;
-    case "o":
-    console.log("Vowel");
-    break;
-    case "i":
-    console.log("Vowel");
-    break;
     case "e":
-    console.log("Vowel");
-    break;
+    case "i":
+    case "o":
+    case "u":
+        console.log( userLetter + " is a Vowel letter");
+        break;
     default:
-        console.log("Consonant");
+        console.log(userLetter + " is a consonant letter");
 }
-
