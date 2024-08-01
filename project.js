@@ -103,9 +103,12 @@ Multiplication = fNumber * lNumber;
 document.write(fNumber + " * " + lNumber + " = " + Multiplication + "<br/>");
 
 
-Modules = fNumber % lNumber;
+Modulas = fNumber % lNumber;
 document.write(fNumber + " % " + lNumber + " = " + Modules + "<br/>");
 
 
 Divisioin = fNumber / lNumber;
 document.write(fNumber + " / " + lNumber + " = " + Divisioin);
+
+let A = "30";
+console.log(Number(A));
