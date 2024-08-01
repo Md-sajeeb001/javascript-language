@@ -128,29 +128,53 @@
 
 // Logical operator -> &&, ||, !;
 
-let value1 = 30;
-let value2 = 20;
-let valus3 = 100;
+// let value1 = 30;
+// let value2 = 20;
+// let valus3 = 100;
 
-console.log(value1 < valus3);
-console.log(value2 > value1);
-console.log(value1 <= 20 );
-console.log(valus3 >= value2);
-console.log(value1 == "30");
-console.log(valus3 === 100);
-console.log(value2 === value1);
-console.log(value2 != valus3)
-console.log(valus3 != 100);
-console.log(value1 !== 100);
+// console.log(value1 < valus3);
+// console.log(value2 > value1);
+// console.log(value1 <= 20 );
+// console.log(valus3 >= value2);
+// console.log(value1 == "30");
+// console.log(valus3 === 100);
+// console.log(value2 === value1);
+// console.log(value2 != valus3)
+// console.log(valus3 != 100);
+// console.log(value1 !== 100);
 
-let value4 = 400;
-let value5 = 500;
-let value6 = 100;
+// let value4 = 400;
+// let value5 = 500;
+// let value6 = 100;
 
-console.log(value4 > value6 && value1 > value2 && valus3 < value5);
+// console.log(value4 > value6 && value1 > value2 && valus3 < value5);
 
-console.log(value2 < value4 && value6 < value2);
+// console.log(value2 < value4 && value6 < value2);
 
-console.log(value4 < value1 || value5 > valus3 || value5 > value4 )
+// console.log(value4 < value1 || value5 > valus3 || value5 > value4 )
 
-console.log(!(value2>value5));
+// console.log(!(value2>value5));
+
+
+// USER MARKS SHEET !
+
+let userInput = parseFloat(prompt("Enter Your Marks : "));
+
+if(userInput >= 80){
+  console.log("You pass with A+");
+}
+else if(userInput >= 70){
+    console.log("You pass with A");
+}
+else if(userInput >= 60){
+    console.log("You pass with B")
+}
+else if(userInput >= 50){
+    console.log("You pass with C");
+}
+else if(userInput >= 40){
+    console.log("D");
+}
+else{
+    console.log("TUMI ANDA PYSO BORO AKTA ANDA");
+}
