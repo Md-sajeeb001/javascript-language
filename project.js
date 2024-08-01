@@ -160,7 +160,11 @@
 
 // let userInput = parseFloat(prompt("Enter Your Marks : "));
 
-// if(userInput >= 80){
+// if(userInput > 100 || userInput < 0){
+//     console.log("invelid number")
+// }
+
+// else if(userInput >= 80 && userInput <= 100){
 //   console.log("You pass with A+");
 // }
 // else if(userInput >= 70){
@@ -177,4 +181,58 @@
 // }
 // else{
 //     console.log("TUMI ANDA PYSO BORO AKTA ANDA");
+// } 
+
+
+// let fNum = parseFloat(prompt("Enter First Number : "));
+// let lNum = parseFloat(prompt("Entet second num"));
+// let tNum = parseFloat(prompt("Enter thirs num"));
+
+// if(fNum > lNum && fNum > tNum){
+//     console.log("large number = " + fNum);
 // }
+// else if(lNum > fNum && lNum > tNum){
+//     console.log("large number = " + lNum)
+// }
+// else{
+//     console.log("large number = " + tNum);
+// }
+
+// let letter = prompt("enter a letter : ")
+
+// letter = letter.toLowerCase();
+
+// if(letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter =="u"){
+//    console.log("Vowel");
+// }
+// else{
+//     console.log("consotent");
+// }
+
+
+//  USER INPUT !
+
+let letter2 = prompt("Enter a letter : ");
+
+letter2 = letter2.toLowerCase();
+
+switch(letter2){
+    case "a":
+    console.log("Vowel");
+    break;
+    case "u":
+    console.log("Vowel");
+    break;
+    case "o":
+    console.log("Vowel");
+    break;
+    case "i":
+    console.log("Vowel");
+    break;
+    case "e":
+    console.log("Vowel");
+    break;
+    default:
+        console.log("Consonant");
+}
+
