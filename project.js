@@ -83,36 +83,43 @@
 // document.write( inpfNumber + " % " + inplNumber + " = " + Modules);
 
 
-let fNumber = prompt("Enter First Number : ");
-let lNumber = prompt("Enter Second Number : ");
+// let fNumber = prompt("Enter First Number : ");
+// let lNumber = prompt("Enter Second Number : ");
 
 
-fNumber = parseInt(fNumber);
-lNumber = parseInt(lNumber);
+// fNumber = parseInt(fNumber);
+// lNumber = parseInt(lNumber);
 
-// let result ---> ay Khane ami varibel a akta variabel use korte parbo ate amer storeg save hobe 
-let addition, subtraction, Multiplication, Modules, Divisioin;
-
-
-// let result variabl ta ami documet.write(result) a pass korle ati thik thak kaj korbe!
-
-addition = fNumber + lNumber;
-document.write(fNumber + " + " + lNumber + " = " + addition + "<br/>");
-
-subtraction = fNumber - lNumber;
-document.write(fNumber + " - " + lNumber + " = " + subtraction + "<br/>");
+// // let result ---> ay Khane ami varibel a akta variabel use korte parbo ate amer storeg save hobe 
+// let addition, subtraction, Multiplication, Modules, Divisioin;
 
 
-Multiplication = fNumber * lNumber;
-document.write(fNumber + " * " + lNumber + " = " + Multiplication + "<br/>");
+// // let result variabl ta ami documet.write(result) a pass korle ati thik thak kaj korbe!
+
+// addition = fNumber + lNumber;
+// document.write(fNumber + " + " + lNumber + " = " + addition + "<br/>");
+
+// subtraction = fNumber - lNumber;
+// document.write(fNumber + " - " + lNumber + " = " + subtraction + "<br/>");
 
 
-Modulas = fNumber % lNumber;
-document.write(fNumber + " % " + lNumber + " = " + Modules + "<br/>");
+// Multiplication = fNumber * lNumber;
+// document.write(fNumber + " * " + lNumber + " = " + Multiplication + "<br/>");
 
 
-Divisioin = fNumber / lNumber;
-document.write(fNumber + " / " + lNumber + " = " + Divisioin);
+// Modulas = fNumber % lNumber;
+// document.write(fNumber + " % " + lNumber + " = " + Modules + "<br/>");
 
-let A = "30";
-console.log(Number(A));
+
+// Divisioin = fNumber / lNumber;
+// document.write(fNumber + " / " + lNumber + " = " + Divisioin);
+
+// let A = "30";
+// console.log(Number(A));
+
+//  FAHRENHEIT TO CELSIUS !
+
+let farn = parseFloat(prompt("Enter Fahrenheit : "));
+
+let cels = (farn - 32) * (5/9);
+document.write( "Celsius = " + cels);
