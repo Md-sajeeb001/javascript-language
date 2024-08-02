@@ -504,3 +504,17 @@
 // let oneDarray = [1, 4, 23, 54, 65, 87];
 // let finalresult = myNumber(oneDarray);
 // console.log(finalresult);
+
+//  function highestScore3(scores){
+
+//    let max = score[0];
+//    for(let x = 0; x < score.length; x++){
+//       if(max < score[x]){
+//          max = score[x];
+//       }
+//    }
+//    return max;
+//  }
+//  let score = [10, 30, 4, 50, 200, 7, 23,];
+//  let maxScore = highestScore3(score);
+//  console.log(maxScore);
