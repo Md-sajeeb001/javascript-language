@@ -456,5 +456,51 @@
 // console.log(newfruit);
 // console.log(fruits);
 
+// One Dimensional Array
+// Create a function called highestscore that 
+// Riceive a 1d array called scores
+// return the highest score
 
- 
+// function highestscore(scores){
+//    let max = scores[0];
+//    for(let x = 1; x < scores.length ; x++){
+//       if(max < scores[x]){
+//         max = scores[x];
+//       }
+//    }
+//    return max;
+// }
+
+// let scores = [10, 20, 5, 8, 30, 80,];
+// let maxscores = highestscore(scores);
+//  console.log(maxscores);
+
+// function highestscore2(score){
+
+//   let max = score[0];
+//   for(let x = 1; x < score.length; x++){
+//      if(max < score[x]){
+//       max = score[x];
+//      }
+//   }
+//   return max;
+// }
+
+// let score = [10,20,30,40,50,60];
+// let maxscores = highestscore2(score);
+// console.log(maxscores);
+
+
+// function myNumber(bigestNumber){
+//   let max = bigestNumber[0];
+//   for(let x = 1; x < bigestNumber.length; x++)
+//      if(max < bigestNumber[x]){
+//       max = bigestNumber[x];
+//      }    
+//      return max;
+// }
+
+
+// let oneDarray = [1, 4, 23, 54, 65, 87];
+// let finalresult = myNumber(oneDarray);
+// console.log(finalresult);
