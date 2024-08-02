@@ -385,7 +385,76 @@
 
 // IIFEs (Immediately Invokeable Function Expressions)
 
-  (function task(sum1, sum2){
-     let sumtask = sum1 + sum2;
-     console.log(Number(sumtask));
-   })(5,50);  
+//   (function task(sum1, sum2){
+//      let sumtask = sum1 + sum2;
+//      console.log(Number(sumtask));
+//    })(5,50);  
+
+   // ARRAY PRACTICE !
+   
+    // let num = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+    // for(let i = 0; i < 5; i++){
+    //   num[i] = parseInt(prompt("Enter a Number : "));
+
+    // }
+    // let sum = 0;
+    // for(let i = 0; i < 10; i ++){
+    //    console.log(num[i]);
+    //    sum = sum + num[i];
+    // }
+    // console.log(sum);
+
+// console.log(arrayNum);
+
+// ARRAY SORTING !
+
+// let letter = ["A", "B", "C", "D", "E", "F", "I"];
+
+// letter.reverse();
+// console.log(letter);
+
+// let sortingNumber = [4, 2, 5, 1, 7, 9, 80, 40, 20, 30];
+
+// sortingNumber.sort(function(a, b){
+//   return a - b;
+// });
+// console.log(sortingNumber);
+// sortingNumber.slice(2);
+// console.log(sortingNumber);
+
+
+// console.log(sortingNumber);
+// sortingNumber.splice(3, 2, "Banana", "orange");
+// console.log(sortingNumber);
+
+
+// let letter = ["A", "B", "C", "D", "E", "F", "I"];
+
+// let sortingNumber = [4, 2, 5, 1, 7, 9, 80, 40, 20, 30];
+
+// let sum = 0;
+// for(let i = 0; i < 10; i++){
+//    console.log(sortingNumber[i]);
+//    sum = sum + sortingNumber[i];
+// }
+// console.log(sum);
+
+// sortingNumber.sort(function(a, b){
+//   return a - b;
+// });
+// console.log(sortingNumber);
+
+// let letter = ["A", "B", "C", "D", "E", "F", "I"];
+
+// for(let x of letter){
+//   console.log(x);
+// }
+
+// let fruits = ["Apple", "Banana", "Mango", "Orange"];
+
+// let newfruit = fruits.slice(1);
+// console.log(newfruit);
+// console.log(fruits);
+
+
+ 
