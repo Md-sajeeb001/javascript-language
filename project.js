@@ -518,3 +518,28 @@
 //  let score = [10, 30, 4, 50, 200, 7, 23,];
 //  let maxScore = highestScore3(score);
 //  console.log(maxScore);
+
+// 2D ARRAY !
+
+// function highestRunscorar(playersInfo){
+//    var highestScorer = playersInfo[0][0];
+//    var highestScorer = playersInfo[0][1];
+
+//    for(let x = 1; x < playersInfo.length; x++){
+//       if(highestScorer < playersInfo[x][1]){
+//          highestScorer = playersInfo[x][1]
+//          highestScorer = playersInfo[x][0];
+//       }
+//    }
+//    return highestScorer;
+// }
+
+// let playersInfo = [
+//    ["Shakil", 20],
+//    ["Sojol", 30],
+//    ["Sajeeb", 100],
+//    ["Ahesan", 50],
+//    ["Babul", 40],
+// ];
+// let maxScorer = highestRunscorar(playersInfo);
+// console.log(maxScorer);
